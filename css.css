@@ -2,3 +2,63 @@
     font-family:fantasy;
     font-size: 1.5em;    
 }
+.wid-100 {
+    max-width: 100%;
+}
+.wid-80{
+    max-width:80%;
+}
+
+.rounded-2{
+    border-radius: 2.5rem !important;
+}
+.rounded-3{
+    border-radius: 4.5rem !important;
+}
+
+
+@font-face {
+    font-family: toon;
+    src: url(FONTI.TTF);
+}
+@font-face {
+    font-family: cookie;
+    src: url(cookie.ttf);
+}
+.cookie{
+    font-family: cookie;
+}
+.toon {
+    font-family: toon;
+    color:red;    
+}
+
+.toon-title{
+    font-size: 3.4em;
+}
+.img-thumbnail:hover{
+    width:180px;
+}
+
+.img-thumbnail{
+    width:150px;
+    transition: width 0.5s;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.white{
+    color:white;
+}
+
+footer  a:hover{
+ color:red; 
+}
+
+footer a{
+    color: white;
+}
